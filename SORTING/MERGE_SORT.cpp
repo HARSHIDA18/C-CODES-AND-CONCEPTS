@@ -55,14 +55,14 @@ int main   ()
 {
     int arr[]={10,9,8,7,6,5,4,3,2,1};
     int size=sizeof(arr)/sizeof(arr[0]);
-    cout<<"Elements In The Array Before Sorting Is=[   ";
+    cout<<"Elements Before Sorting In An Array Is As Follows=[   ";
     for   (auto i=0;i<size;i++)
     {
         cout<<arr[i]<<"   ";
     }
     cout<<"]"<<endl;
     Merge_Sort(arr,0,size-1);
-    cout<<"Elements In The Array After Sorting Is=[   ";
+    cout<<"Elements After Sorting In The Array Is As Follows=[   ";
     for   (auto i=0;i<size;i++)
     {
         cout<<arr[i]<<"   ";
